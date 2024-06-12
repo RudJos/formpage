@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+body{
+    color: #F2613F ;
+    background-color: #0C0C0C;
+}
+p{
+    font-size: 12pt;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom:30px ;
+    font-family: "Josefin Sans", sans-serif;
+    width: 500px;
+    font-weight: 650;
+    
+}
+form{
+   color: #d57661;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+.fs{
+    background-color: #481E14;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.block{
+    display: block;
+}
+input{
+    color: antiquewhite;
+    background-color: #9B3922;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px 2px 2px 2px;
+
+}
+#submit{
+    display: block;
+   margin: auto;
+   width: 87px;
+   height: 30px;
+   background-color: #F2613F;
+   border: none;
+   border-radius: 10px;
+   font-weight: bolder;
+}
+.blk{
+    display: block;
+   
+}
+select{
+    background-color: #9B3922;
+    border: none;
+    border-radius: 3px;
+    color: antiquewhite;
+}
+input::placeholder{
+    color: grey;
+}
+textarea{
+    color: antiquewhite;
+    background-color: #9B3922;
+    border: none;
+    border-radius: 5px;
+    width: 300px
+}
+textarea::placeholder{
+    color: grey;
+}
+#submit:hover{
+    background-color: #e54521;
+    
+}
+#submit:active{
+    background-color: #9B3922;
+}
+*{
+    box-sizing: border-box;
+}
+

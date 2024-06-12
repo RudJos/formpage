@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sideform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Danfo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Danfo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+      <h1 id="title">Side-Character reg.</h1>
+      <p id="description">
+        Welcome MC of your own story to the Side Character. Get registered with Us
+        for some Exciting stuff..
+
+      </p>
+   </div>
+    <form id="survey-form" action="www.sidecharacter.com">
+    <fieldset class="fs block">
+       <legend>Personel Details :</legend>
+       <label id="name-label" for="name">Name : <input class="blk" id="name" type="text" required placeholder="What Should we call you"></label>
+        <label id="email-label" for="email">Email : <input class="blk" id="email" type="email" required placeholder="Email Id please!"></label>
+        <label id="number-label" for="number">Age : <input class="blk" id="number" type="number" min="18" max="120" required placeholder="age"></label> 
+    </fieldset>
+    <fieldset class="fs">
+       <label class="cen" for="dopdown">What describes you the best: 
+        <select  name="Describe" id="dropdown">
+            <option value="none">Select Persona</option>
+            <option value="1">Hard-core Gamer</option>
+            <option value="2">Bookworm</option>
+            <option value="3">Movie Buff</option>
+            <option value="4">Music Lover</option>
+            <option value="5">Sports Enthusiast</option>
+            <option value="6">Foodie</option>
+            <option value="7">Traveler</option>
+            <option value="8">Nature Lover</option>
+            <option value="9">Animal Lover</option>
+            <option value="10">Techie</option>
+        </select>
+    </label> 
+    </fieldset>
+    <fieldset class="fs">
+        <legend>What is Your Gender :</legend>
+        <label for="male">Male <input type="radio" id="male" value="Male" required name="gender">
+        <label for="female">Female <input type="radio" id="female" value="Female" required name="gender">
+        <label for="other">Other <input type="radio" id="other" value="other" required name="gender">
+    </fieldset>
+    <fieldset class="fs">
+        <legend>Which Account type would you prefer (you can choose both) : </legend>
+        <label for="consume"><input type="checkbox" id="consume" value="Consumer" required checked>Consumer</label>
+        <label for="contri"><input type="checkbox" id="contri" value="contributer" required >Contributer</label>
+    </fieldset>
+    <fieldset class="fs">
+        <legend>Character Avatar:</legend>
+        <label for="profilepic">Upload a profile picture: <input type="file" id="profilepic" accept=".png, .jpeg, .jpg, .gif, .bmp, .webp"></label>
+    </fieldset>
+    <fieldset class="fs">
+        <label for="bio">Add a bio: <textarea name="textarea" id="bio" placeholder="Listen to claire de lune under the lune.."></textarea></label>
+    </fieldset>
+    <input type="submit" id="submit">
+    </form>
+</body>
+</html>
